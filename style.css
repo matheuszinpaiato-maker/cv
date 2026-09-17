@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ddd;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+
+/* FOLHA DO CURRÍCULO */
+
+.curriculo {
+    width: 900px;
+    min-height: 1100px;
+    margin: 30px auto;
+    background: white;
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    height: 330px;
+    display: flex;
+    background: #c4b183;
+}
+
+
+/* FOTO */
+
+.foto {
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 26px;
+}
+
+
+/* APRESENTAÇÃO */
+
+.apresentacao {
+    width: 68%;
+    padding: 70px 50px;
+    color: white;
+}
+
+.apresentacao h1 {
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.apresentacao h1::after {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 4px;
+    background: white;
+    margin-top: 15px;
+}
+
+.apresentacao p {
+    width: 500px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+
+/* CONTEÚDO */
+
+.conteudo {
+    display: flex;
+}
+
+
+/* LATERAL */
+
+.lateral {
+    width: 32%;
+    background: #eeeade;
+    padding: 35px;
+}
+
+.lateral section {
+    margin-bottom: 100px;
+}
+
+.lateral h2 {
+    font-size: 18px;
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+}
+
+.lateral p {
+    font-size: 13px;
+    margin-bottom: 18px;
+    line-height: 1.5;
+}
+
+.lateral i {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.lateral ul {
+    padding-left: 18px;
+}
+
+.lateral li {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.idioma {
+    margin-bottom: 20px;
+}
+
+.idioma strong {
+    font-size: 13px;
+}
+
+.idioma span {
+    float: right;
+    font-size: 13px;
+}
+
+.barra {
+    width: 100%;
+    height: 5px;
+    background: white;
+    margin-top: 7px;
+}
+
+.progresso {
+    height: 5px;
+    background: #c4b183;
+}
+
+.ingles {
+    width: 85%;
+}
+
+.espanhol {
+    width: 40%;
+}
+
+
+/* PARTE PRINCIPAL */
+
+.principal {
+    width: 68%;
+    padding: 35px 40px;
+}
+
+.bloco {
+    margin-bottom: 25px;
+}
+
+.bloco h2 {
+    font-size: 19px;
+    border-bottom: 2px solid #c4b183;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.bloco p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
